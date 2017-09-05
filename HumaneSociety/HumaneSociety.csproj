@@ -49,17 +49,23 @@
   <ItemGroup>
     <Compile Include="AdopterDbHelper.cs" />
     <Compile Include="AnimalDbHelper.cs" />
-    <Compile Include="EmployeeInterface\Edit Animal.cs">
+    <Compile Include="EmployeeInterface\EditAnimal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeInterface\Edit Animal.Designer.cs">
-      <DependentUpon>Edit Animal.cs</DependentUpon>
+    <Compile Include="EmployeeInterface\EditAnimal.Designer.cs">
+      <DependentUpon>EditAnimal.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeInterface\EmployeeMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EmployeeInterface\EmployeeMainMenu.Designer.cs">
       <DependentUpon>EmployeeMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeInterface\SearchForAnimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeInterface\SearchForAnimal.Designer.cs">
+      <DependentUpon>SearchForAnimal.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeInterface\NewAnimalMenu.cs">
       <SubType>Form</SubType>
@@ -75,18 +81,21 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransactionDBHelper.cs" />
-    <None Include="HSData.dbml.layout">
-      <DependentUpon>HSData.dbml</DependentUpon>
-    </None>
-    <EmbeddedResource Include="EmployeeInterface\Edit Animal.resx">
-      <DependentUpon>Edit Animal.cs</DependentUpon>
+    <EmbeddedResource Include="EmployeeInterface\EditAnimal.resx">
+      <DependentUpon>EditAnimal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeInterface\EmployeeMainMenu.resx">
       <DependentUpon>EmployeeMainMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeInterface\SearchForAnimal.resx">
+      <DependentUpon>SearchForAnimal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeInterface\NewAnimalMenu.resx">
       <DependentUpon>NewAnimalMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="HSData.dbml.layout">
+      <DependentUpon>HSData.dbml</DependentUpon>
+    </None>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
