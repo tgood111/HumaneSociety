@@ -17,9 +17,24 @@ namespace HumaneSociety.EmployeeInterface
             InitializeComponent();
         }
 
-        private void NewAnimal_Click(object sender, EventArgs e)
+        private void NewAnimal_Click_1(object sender, EventArgs e)
         {
             new NewAnimalMenu().Show();
+        }
+
+        private void ImportAnimal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EditAnimal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AdoptAnimal_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
