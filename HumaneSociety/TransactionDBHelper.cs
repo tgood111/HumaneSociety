@@ -56,11 +56,10 @@ namespace HumaneSociety
 
                 res.Animal = updated.Animal;
                 res.Adopter = updated.Adopter;
-                res.Amont_Paid = updated.Amont_Paid;
+                res.Amount_Paid = updated.Amount_Paid;
                 res.Amount_Owed = updated.Amount_Owed;
                 context.SubmitChanges();
                 return true;
-
             }
             catch (Exception e)
             {
