@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace HumaneSociety.EmployeeInterface
 {
-    public partial class Edit_Animal : Form
+    public partial class EditAnimal : Form
     {
-        public Edit_Animal()
+        public EditAnimal()
         {
             InitializeComponent();
+            Room.Maximum = 20;
+            Room.Minimum = 1;
         }
     }
 }

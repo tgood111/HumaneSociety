@@ -1,6 +1,6 @@
 ﻿namespace HumaneSociety.EmployeeInterface
 {
-    partial class Edit_Animal
+    partial class EditAnimal
     {
         /// <summary>
         /// Required designer variable.
@@ -34,8 +34,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 269);
-            this.Name = "Edit_Animal";
+            this.ClientSize = new System.Drawing.Size(1226, 522);
+            this.Name = "EditAnimal";
             this.Text = "Edit_Animal";
             this.ResumeLayout(false);
 
