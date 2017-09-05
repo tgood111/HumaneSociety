@@ -42,5 +42,25 @@ namespace HumaneSociety.EmployeeInterface
             AnimalDbHelper.AddAnimal(a);
             this.Close();
         }
+
+        private void NewAnimalMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Age_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -64,6 +64,7 @@
             this.Cancel.TabIndex = 1;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // name
             // 
@@ -71,6 +72,7 @@
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(246, 31);
             this.name.TabIndex = 2;
+            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // label1
             // 
@@ -87,6 +89,7 @@
             this.Age.Name = "Age";
             this.Age.Size = new System.Drawing.Size(246, 31);
             this.Age.TabIndex = 4;
+            this.Age.TextChanged += new System.EventHandler(this.Age_TextChanged);
             // 
             // label2
             // 
@@ -175,7 +178,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1019, 554);
+            this.ClientSize = new System.Drawing.Size(482, 554);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.FoodIntake);
             this.Controls.Add(this.Shot);
@@ -193,6 +196,7 @@
             this.Controls.Add(this.AddAnimal);
             this.Name = "NewAnimalMenu";
             this.Text = "NewAnimalMenu";
+            this.Load += new System.EventHandler(this.NewAnimalMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Room)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
