@@ -1,6 +1,6 @@
 ﻿namespace HumaneSociety.EmployeeInterface
 {
-    partial class NewAnimalMenu
+    partial class EditAnimal
     {
         /// <summary>
         /// Required designer variable.
@@ -174,7 +174,7 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Food Intake:";
             // 
-            // NewAnimalMenu
+            // EditAnimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -194,8 +194,8 @@
             this.Controls.Add(this.name);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.AddAnimal);
-            this.Name = "NewAnimalMenu";
-            this.Text = "NewAnimalMenu";
+            this.Name = "EditAnimal";
+            this.Text = "EditAnimal";
             this.Load += new System.EventHandler(this.NewAnimalMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Room)).EndInit();
             this.ResumeLayout(false);

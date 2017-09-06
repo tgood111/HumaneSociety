@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HumaneSociety.EmployeeInterface
 {
-    public partial class NewAnimalMenu : Form
+    public partial class EditAnimal : Form
     {
-        public NewAnimalMenu()
+        public EditAnimal()
         {
             InitializeComponent();
             Room.Maximum = 20;
