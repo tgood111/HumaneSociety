@@ -76,7 +76,7 @@
             // 
             // EmployeeMainMenu
             // 
-            this.ClientSize = new System.Drawing.Size(669, 109);
+            this.ClientSize = new System.Drawing.Size(664, 109);
             this.Controls.Add(this.AdoptAnimal);
             this.Controls.Add(this.EditAnimal);
             this.Controls.Add(this.ImportAnimal);
