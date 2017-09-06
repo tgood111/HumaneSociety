@@ -52,7 +52,7 @@ namespace HumaneSociety
             {
                 HSDataDataContext context = new HSDataDataContext();
                 var res = (from animals in context.Animals
-                    where animals.Animal_ID == updated.Animal_ID
+                    where animals.Animal_ID.Equals(updated.Animal_ID)
                     select animals).First();
 
                 res.Adoption_Status = updated.Adoption_Status;
