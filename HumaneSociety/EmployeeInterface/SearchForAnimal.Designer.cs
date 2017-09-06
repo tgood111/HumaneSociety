@@ -95,6 +95,7 @@
             this.Search.TabIndex = 7;
             this.Search.Text = "Search";
             this.Search.UseVisualStyleBackColor = true;
+            this.Search.Click += new System.EventHandler(this.Search_Click);
             // 
             // Cancel
             // 

@@ -23,5 +23,22 @@ namespace HumaneSociety.EmployeeInterface
         {
             Close();
         }
+
+        private void Search_Click(object sender, EventArgs e)
+        {
+            List<Animal> animals = AnimalDbHelper.GetTable();
+            Animal animal = animals.First(x => x.Room == (byte) Room.Value && x.Name == name.Text &&
+                                                   x.Type == Type.Text);
+            if (animal != null)
+            {
+                new EditAnimalMenu(animal).Show();
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("No animal found!");
+                return;
+            }
+        }
     }
 }
