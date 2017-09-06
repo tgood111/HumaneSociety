@@ -7,5 +7,10 @@ C:\Users\tgood\onedrive\documents\visual studio 2015\Projects\HumaneSocietyProje
 C:\Users\tgood\onedrive\documents\visual studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.exe
 C:\Users\tgood\onedrive\documents\visual studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.pdb
 C:\Users\tgood\onedrive\documents\visual studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.EmployeeInterface.EmployeeMainMenu.resources
-C:\Users\tgood\onedrive\documents\visual studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.EmployeeInterface.NewAnimalMenu.resources
-C:\Users\tgood\OneDrive\Documents\Visual Studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.EmployeeInterface.Edit_Animal.resources
+C:\Users\tgood\OneDrive\Documents\Visual Studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.EmployeeInterface.EditAnimalMenu.resources
+C:\Users\tgood\OneDrive\Documents\Visual Studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.EmployeeInterface.EditAnimal.resources
+C:\Users\tgood\OneDrive\Documents\Visual Studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.EmployeeInterface.SearchForAnimal.resources
+C:\Users\tgood\OneDrive\Documents\Visual Studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.CustomerUser.AdopterMainMenu.resources
+C:\Users\tgood\OneDrive\Documents\Visual Studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.CustomerUser.CustomerMainMenu.resources
+C:\Users\tgood\OneDrive\Documents\Visual Studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.CustomerUser.LoginForm.resources
+C:\Users\tgood\OneDrive\Documents\Visual Studio 2015\Projects\HumaneSocietyProject\HumaneSociety\obj\Debug\HumaneSociety.CustomerUser.RegistrationForm.resources

@@ -49,11 +49,29 @@
   <ItemGroup>
     <Compile Include="AdopterDbHelper.cs" />
     <Compile Include="AnimalDbHelper.cs" />
-    <Compile Include="EmployeeInterface\EditAnimal.cs">
+    <Compile Include="CustomerUser\AdopterMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeInterface\EditAnimal.Designer.cs">
-      <DependentUpon>EditAnimal.cs</DependentUpon>
+    <Compile Include="CustomerUser\AdopterMainMenu.Designer.cs">
+      <DependentUpon>AdopterMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerUser\CustomerMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerUser\CustomerMainMenu.Designer.cs">
+      <DependentUpon>CustomerMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerUser\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerUser\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerUser\RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerUser\RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeInterface\EmployeeMainMenu.cs">
       <SubType>Form</SubType>
@@ -61,17 +79,23 @@
     <Compile Include="EmployeeInterface\EmployeeMainMenu.Designer.cs">
       <DependentUpon>EmployeeMainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeInterface\SearchForAnimal.cs">
+    <Compile Include="EmployeeInterface\EditAnimal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeInterface\SearchForAnimal.Designer.cs">
-      <DependentUpon>SearchForAnimal.cs</DependentUpon>
+    <Compile Include="EmployeeInterface\EditAnimal.Designer.cs">
+      <DependentUpon>EditAnimal.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeInterface\NewAnimalMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EmployeeInterface\NewAnimalMenu.Designer.cs">
       <DependentUpon>NewAnimalMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeInterface\SearchForAnimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeInterface\SearchForAnimal.Designer.cs">
+      <DependentUpon>SearchForAnimal.cs</DependentUpon>
     </Compile>
     <Compile Include="HSData.designer.cs">
       <AutoGen>True</AutoGen>
@@ -81,18 +105,31 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransactionDBHelper.cs" />
-    <EmbeddedResource Include="EmployeeInterface\EditAnimal.resx">
-      <DependentUpon>EditAnimal.cs</DependentUpon>
+    <EmbeddedResource Include="CustomerUser\AdopterMainMenu.resx">
+      <DependentUpon>AdopterMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerUser\CustomerMainMenu.resx">
+      <DependentUpon>CustomerMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerUser\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerUser\RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeInterface\EmployeeMainMenu.resx">
       <DependentUpon>EmployeeMainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeInterface\SearchForAnimal.resx">
-      <DependentUpon>SearchForAnimal.cs</DependentUpon>
+    <EmbeddedResource Include="EmployeeInterface\EditAnimal.resx">
+      <DependentUpon>EditAnimal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeInterface\NewAnimalMenu.resx">
       <DependentUpon>NewAnimalMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeInterface\SearchForAnimal.resx">
+      <DependentUpon>SearchForAnimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ExampleCSV.csv" />
     <None Include="HSData.dbml.layout">
       <DependentUpon>HSData.dbml</DependentUpon>
     </None>
